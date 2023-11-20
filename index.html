@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div>
+      <form id="form">
+        <div style="display: flex; flex-direction: column">
+          <label>Time</label>
+          <div>
+            <input type="time" name="time" id="time" />
+          </div>
+        </div>
+        <div style="display: flex; gap: 8px">
+          <div style="display: flex; flex-direction: column">
+            <label>Hour</label>
+            <input type="number" name="hour" id="hour" />
+          </div>
+
+          <div style="display: flex; flex-direction: column">
+            <label>Minute</label>
+            <input type="number" name="minute" id="minute" />
+          </div>
+        </div>
+        <button id="add">adauga</button>
+        <button id="minus">scade</button>
+      </form>
+      <div><span id="result"></span></div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
